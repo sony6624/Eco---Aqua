@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AquaCulture</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header-container">
+      <div class="head">
+        <img src="img-1.jpg" alt="Institute Logo" class="logo" />
+        <h1>Eco-Friendly Aquaculture</h1>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#benefits">Benefits</a></li>
+          <li><a href="#activities">Activities</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <section id="home" class="section">
+      <div class="home-content">
+        <h2>Welcome to Eco-Friendly Aquaculture</h2>
+        <p>
+          Promoting sustainable aquaculture practices for a better tomorrow.
+        </p>
+        <button onclick="scrollToSection('about')">Learn More</button>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About the Project</h2>
+      <div class="about-content">
+        <p>
+          <strong>Introduction:</strong> This project aims to educate
+          communities on sustainable aquaculture methods.
+        </p>
+        <p>
+          <strong>Team:</strong> D. Neha Chowdary, K. Lakshmi Prasanthi, I.
+          Lakshmi Satwika, and D. Jaya Sruthi.
+        </p>
+        <p><strong>Location:</strong> Duvvur and Ravuru Villages.</p>
+        <iframe
+          src="https://maps.google.com/maps?width=100%&amp;height=100%&amp;hl=en&amp;q=duvvur, India&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+        ></iframe>
+        <iframe
+          src="https://maps.google.com/maps?width=100%&amp;height=100%&amp;hl=en&amp;q=ravuru, India&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+        ></iframe>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About Eco-Friendly Aquaculture</h2>
+      <div class="content">
+          <p>
+              Eco-friendly aquaculture promotes sustainable fish and seafood farming practices that minimize environmental impact. It focuses on reducing waste, conserving water, and using natural methods to maintain healthy aquatic ecosystems.
+          </p>
+          <p>
+              By adopting modern techniques and traditional knowledge, eco-friendly aquaculture supports biodiversity, reduces the reliance on chemical inputs, and ensures a sustainable source of food for future generations.
+          </p>
+          <div class="image-placeholder">
+              <img src="img-11.jpg" alt="Eco-Friendly Aquaculture" class="section-image">
+          </div>
+      </div>
+  </section>  
+
+    <section id="activities" class="section">
+      <h2>Activities</h2>
+      <div class="accordion">
+        <div class="accordion-item">
+          <h3 onclick="toggleAccordion(this)">Week 1: Preliminary Survey</h3>
+          <div class="content">
+            <p>
+              Findings and protocols of aquaculture from the initial survey. To know more <a href="#">Click Here</a>
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 onclick="toggleAccordion(this)">Week 2: Awareness Campaign</h3>
+          <div class="content">
+            <p>Educated locals about modern aquaculture methods. To know more <a href="#">Click Here</a></p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 onclick="toggleAccordion(this)">
+            Week 3: Surveys and Challenges
+          </h3>
+          <div class="content">
+            <p>
+              Suggested modern methods and addressed issues faced by farmers. To know more <a href="#">Click Here</a>
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 onclick="toggleAccordion(this)">Week 4: Recommendations</h3>
+          <div class="content">
+            <p>Shared sustainable aquaculture practices and final outcomes. To know more <a href="#">Click Here</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="benefits" class="section">
+      <h2>Benefits of Eco-Friendly Aquaculture</h2>
+      <div class="content">
+          <p>Eco-friendly aquaculture practices promote sustainability, conservation, and the health of aquatic ecosystems. By using natural methods, these practices help in maintaining biodiversity and ensuring food security.</p>
+          <p>Some notable benefits include:</p>
+          <ul>
+              <li><strong>Sustainability</strong>: Eco-friendly aquaculture reduces environmental impact by minimizing waste and conserving resources, leading to healthier ecosystems.</li>
+              <li><strong>Improved Fish Health</strong>: Natural farming practices result in healthier fish stocks and lower disease rates, reducing the need for antibiotics and chemicals.</li>
+              <li><strong>Enhanced Biodiversity</strong>: Practices that focus on species diversity help maintain ecological balance and promote resilience in aquatic environments.</li>
+          </ul>
+          <p>By adopting eco-friendly practices, aquaculture can provide safe and nutritious food while preserving the environment for future generations.</p>
+          <div class="image-placeholder">
+              <img src="img-12.jpg" alt="Benefits of Eco-Friendly Aquaculture" class="section-image">
+          </div>
+      </div>
+  </section>  
+
+    <section id="gallery" class="section">
+      <h2>Gallery</h2>
+      <div class="carousel">
+        <img src="img-2.jpg" alt="Survey Photo" />
+        <img src="img-10.png" alt="Workshop Photo" />
+        <img src="img-4.jpg" alt="Aquafarm" />
+        <img src="img-9.png" alt="Survey Photo" />
+        <img src="img-3.jpg" alt="Workshop Photo" />
+        <img src="img-8.png" alt="Aquafarm" />
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" required />
+        <label for="message">Message:</label>
+        <textarea id="message" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+      <div class="contact-info">
+        <p>Faculty Guide: Ms. G. Sukanya</p>
+        <p>Email: geethanjali@gist.edu.in</p>
+        <p>
+          Address: Geethanjali Institute of Science and Technology, Nellore.
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        &copy; 2024 Geethanjali Institute of Science and Technology. All Rights
+        Reserved.
+      </p>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
